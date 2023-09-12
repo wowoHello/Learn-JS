@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script>
+/*
+寫入內容：innerHTML
+直接輸出：document.weite()
+彈跳警示視窗：window.alert() ＊window可省略
+顯示於控制台：console.log()
+*/
+</script>
+</head>
+<body>
+    <div id="innerHTMLdemo"></div>
+
+    <h2>use onclick</h2>
+
+    <button onclick="myFunction()">Try it</button>
+
+    <p id="click"></p>
+
+    <script>
+        document.getElementById("innerHTMLdemo").innerHTML = "Hello,JavaScript!";
+
+        document.write("Hello,write!");
+
+        window.alert("Hello,alert!");
+
+        console.log("Hello,consolelog!");
+
+        function myFunction(){
+            document.getElementById("click").innerHTML = "click change string!";
+        };
+    </script>
+</body>
+</html>
