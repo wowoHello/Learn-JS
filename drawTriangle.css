@@ -1,0 +1,39 @@
+.shadowbox {
+    width: 20em;
+    border: 1px solid #333;
+    box-shadow: 5px 2px 3px #44444450;
+    padding: 8px 12px;
+    background-image: linear-gradient(180deg, #fff, #ddd 70%, #ccc);
+  }
+
+  p {
+    font-size: 18px;
+    font-weight:bold;
+  }
+
+  select {
+    font-size: 16px;
+    font-weight:bold;
+  }
+
+  input {
+    font-size: 16px;
+  }
+
+  .btn {
+    font-size: 20px;
+    font-weight:bold;
+    border-radius: 6px;
+    border: none;
+  }
+
+  .btn:hover {
+    background-color: rgba(255, 118, 118, 0.616);
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 2px 3px #44444450;
+  }
+
+  .show {
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.5))
+  }

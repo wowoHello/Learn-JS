@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>option</title>
+    <link rel="stylesheet" type="text/css" href="drawTriangle.css">
+</head>
+<body>
+<div class="shadowbox">
+    <p>三角形類型：
+        <span>
+            <select id="triangleType">
+                <option value="">請選擇三角形類型</option>
+                <option value="a">(左下)直角三角形</option>
+                <option value="b">(左上)直角三角形</option>
+                <option value="c">(右下)直角三角形</option>
+                <option value="d">(右上)直角三角形</option>
+                <option value="e">正三角形</option>
+                <option value="f">倒三角形</option>
+            </select>
+        </span>
+    </p>
+
+    <p>高度：
+        <span>
+            <input id="val" oninput="value=value.replace(/[^\d]/g,'')">  <!-- 限定輸入數字 -->
+        </span>
+    </p>
+
+    <button class="btn" onclick="pdtriangle()">產生形狀</button>
+</div>
+</br>
+<div id="show" class="show"></div>
+
+<script type="text/javascript" src="drawTriangle.js"></script>
+</body>
+</html>
