@@ -1,6 +1,6 @@
 //  2維陣列、巢狀迴圈
 
-var number =[
+let number =[
     [1,2,3],
     [4,5,6],
     [7,8,9],
@@ -16,8 +16,8 @@ var number =[
 //     }
 // }    //測試
 
-for(var i = 0; i<number.length; i++){
-    for(var j = 0; j<number[i].length; j++){    //number[i].length表示被取出來的每一行長度
+for(let i = 0; i<number.length; i++){
+    for(let j = 0; j<number[i].length; j++){    //number[i].length表示被取出來的每一行長度
         document.write(number[i][j]);
         document.write("<br/>");
     }

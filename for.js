@@ -14,7 +14,7 @@
 
 //  製作一個問答程式
 
-var questions = [
+const questions = [
     {
         prompt:"香蕉是什麼顏色？\n(a)紅色\n(b)綠色\n(c)黃色",
         answer:"c"
@@ -29,9 +29,9 @@ var questions = [
     }
 ]  
 
-var score = 0;
-for(var i = 0; i<questions.length; i++){
-    var input = prompt(questions[i].prompt);
+let score = 0;
+for(let i = 0; i<questions.length; i++){
+    let input = prompt(questions[i].prompt);
     if(input == questions[i].answer){
         score++;
         alert("答對了！");
@@ -41,4 +41,4 @@ for(var i = 0; i<questions.length; i++){
     }
 }
 
-document.writec("總共獲得：" + score + "分");
+document.write("總共獲得：" + score + "分");

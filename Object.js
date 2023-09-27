@@ -3,7 +3,7 @@
 // key   value
 // 鍵      值
 
-var person = {
+let person = {
     name:"小白",
     age:23,
     is_male:true,
@@ -15,7 +15,7 @@ var person = {
 document.write(person.name);
 
 
-var movie = {
+let movie = {
     title:"刻在你心底的名字",
     maker:"氧氣電影",
     duration:114,

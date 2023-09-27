@@ -1,10 +1,10 @@
 //  密碼檢驗程式
 
-var password = 123456;
-var input;
-var entry_count = 0;    //輸入次數起始
-var entry_limit = 3;    //最高輸入次數
-var out_of_limit = false;
+const password = 123456;
+let input;
+let entry_count = 0;    //輸入次數起始
+const entry_limit = 3;    //最高輸入次數
+let out_of_limit = false;
 
 while(password!=input && !out_of_limit){
     entry_count++;  //次數先+1

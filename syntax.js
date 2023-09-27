@@ -21,7 +21,7 @@ let sun = "5" + 2 + 3;  //字串之後的數字將視為字串。 顯示：523
 let sun2 = 2 + 3 + "5"; //字串之前的數字會先相加在跟字串組合。 顯示：55
 
 
-var X = 3;
+var X = 3;  //已不使用
 let Y = 4;
 const Z = 5;
 // X = 3 (var)
@@ -29,7 +29,7 @@ const Z = 5;
 // Z = 5 (const)
 
 function myFunction(){
-    var X = 6;
+    var X = 6;  //已不使用
     let Y = 8;
     const Z = 10;
 

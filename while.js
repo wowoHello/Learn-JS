@@ -1,6 +1,6 @@
 // while 迴圈
 
-var i = 1;
+let i = 1;
 
 while(i <= 5){
     document.write(i);
@@ -8,7 +8,7 @@ while(i <= 5){
     i++;
 }   //判斷條件成立時執行裡面程式碼。
 
-var x = 7
+let x = 7
 do{
     document.write(x);
     document.write("<br/>");
